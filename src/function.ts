@@ -18,7 +18,7 @@ function sequence(start: number, end: number): number[]{
     return arrays;
 }
 
-for(let i = 1; i<= 100; i++){
+for(const i of sequence(1,100)){
     const message = getFizzBuzzString(i);
     console.log(message);
 }
